@@ -15,8 +15,6 @@ const App =  () => {
     setIsCross(false);
     setWinMessage("empty");
     itemArray.fill("empty",0,9);
-
-
   } 
   const checkIsWinner = () => {
     if(
